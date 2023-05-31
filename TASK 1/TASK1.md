@@ -1,9 +1,11 @@
 I was able to build CNN on CIFAR 100 dataset using softmax and gumbel-softmax activation functions successfully 
 
-**The metrics of CNN model using standard softmax activation function :- **
+# The metrics of CNN model using standard softmax activation function :- 
 
-Confusion matrix: [[83 0 0 ... 0 0 0] 
-
+Confusion matrix: 
+                  
+                  [[83 0 0 ... 0 0 0] 
+                  
                    [ 0 82 0 ... 0 0 0] 
                    
                    [ 0 0 44 ... 0 4 0] 
@@ -25,9 +27,11 @@ Precision score : 0.600344
 Recall score : 0.593100
 
 
-**The metrics of CNN model using gumbel-softmax activation function :-**
+# The metrics of CNN model using gumbel-softmax activation function :-
 
-Confusion matrix: [[87 0 1 ... 0 0 0] 
+Confusion matrix: 
+
+                  [[87 0 1 ... 0 0 0] 
 
                   [ 0 75 0 ... 0 0 2] 
                   
